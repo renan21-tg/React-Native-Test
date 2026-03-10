@@ -16,6 +16,7 @@ export function LoginForm () {
                 <TextInput
                     className='border border-gray-500 w-full rounded-xl pl-2'
                     placeholder='Insira sua senha'
+                    secureTextEntry={true}
                 />
             </View>
 
